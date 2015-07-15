@@ -1,5 +1,5 @@
 <h2>DialogueTest</h2>
-Project to learnd how to add simple dialogue in games.
+Project to learn how to add simple dialogue in games.
 
 <h3>Full Premise</h3>
 After making some experiments here and there with games, I decided that
