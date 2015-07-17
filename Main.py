@@ -56,17 +56,8 @@ def run():
     done = False
     while not done:
 
-        #Handle all the events (might be moved to the world handler)
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                done = True
-
-            elif event.type == pygame.KEYDOWN:
-                if event.key == pygame.K_ESCAPE:
-                    done = True
-
         #Update the world below here but above rendering
-        game_engine.update()
+        done = game_engine.update()
 
         #Render everything below here
         screen.fill((0, 0, 0))
