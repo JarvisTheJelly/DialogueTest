@@ -83,10 +83,16 @@ class DialogueHandler(object):
 
         #Check to see if there is a speaker, if so blit their name
         if speaker != "":
-            speaker_text = self.render_text("speaker", speaker + ":", quotes=False)
+            speaker_text = self.render_text("speaker",
+                    speaker + ":",
+                    quotes=False)
+
             text_box.blit(speaker_text, (20, 20))
 
-        detail_render = self.render_text("details", "PRESS SPACE TO CONTINUE", quotes=False)
+        detail_render = self.render_text("details",
+                "PRESS SPACE TO CONTINUE",
+                quotes=False)
+
         text_box.blit(detail_render, (20, height - 20))
 
         #blit the rendered text to the text box

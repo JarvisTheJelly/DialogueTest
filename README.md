@@ -11,6 +11,12 @@ only the base engine is there but I hope to add more soon. Still trying
 to work out a good system for it all in my head but I think I'm just going
 to try something and fail faster.
 
+<h2>Update: 17 July 2015</h2>
+Basic Dialogue is added. It can take in inputs and create text boxes that
+are put into a list for the handler to go through. The game goes into a
+"DIALOGUE" state, which basically pauses the game until the player goes
+through all of the text.
+
 <h2>Do I want help?</h2>
 I guess some help would be kind of nice, but more of in the helping to format
 code, rather than someone writing a whole dialogue engine and rendering this
